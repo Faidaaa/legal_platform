@@ -1,14 +1,9 @@
-import './../styles/Home.css';
+import Hero from "../components/Hero";
 
 function Home() {
     return(
         <>
-            
-            <div className="hero">
-            <h1>Legal Platform</h1>
-            <p>Making Legal documents accessible to everyone.</p>
-            <button>Upload Documents</button>
-        </div>
+            <Hero />
         </>
     );
 }
